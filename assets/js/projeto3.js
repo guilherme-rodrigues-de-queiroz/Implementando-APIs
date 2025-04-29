@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function(){
     const selectEstados = document.querySelector("#ddlEstados");
-    const estados = `https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome`;
+    const estados = "https://servicodados.ibge.gov.br/api/v1/localidades/estados?orderBy=nome";
 
     fetch(estados)
     .then(function(resposta){
